@@ -1,0 +1,42 @@
+p {
+    border: solid 1px black;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+    font-size: 18px;
+}
+
+.excluir {
+    margin-left: 35%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 194, 27);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 2px 5px black;   
+}
+
+.excluir:hover {
+    box-shadow: 3px 2px 5px rgb(236, 194, 27);
+}
+
+#div1 {
+    margin-top: 50px;
+}
+
+#digiteTarefa {
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(238, 238, 120);
+    border: none;
+}
+
+p:hover {
+    background-color: black;
+    color: rgb(236, 194, 27);
+    transition: 0.2s;
+}
+
+.tarefaFeita {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
